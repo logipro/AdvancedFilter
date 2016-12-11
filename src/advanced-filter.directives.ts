@@ -1,3 +1,3 @@
-import { AdvancedFilterComponent } from './advanced-filter/advanced-filter.component';
+import { Ng2AdvancedFilterComponent } from './ng2-advanced-filter/ng2-advanced-filter.component';
 
-export const ADVANCED_FILTER_DIRECTIVES = [AdvancedFilterComponent];
+export const NG2_ADVANCED_FILTER_DIRECTIVES = [Ng2AdvancedFilterComponent];

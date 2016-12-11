@@ -1,13 +1,12 @@
 import {
-    Component, Input, Output
+  Component, Input, Output, SimpleChange, EventEmitter
 } from '@angular/core';
 
 @Component({
-    selector: 'advanced-filter',
-    styles: [require('./advanced-filter.scss')],
-    template: require('./advanced-filter.html')
+  selector: 'ng2-advanced-filter',
+  styles: [require('./ng2-advanced-filter.scss')],
+  template: require('./ng2-advanced-filter.html')
 })
-
-export class AdvancedFilterComponent {
+export class Ng2AdvancedFilterComponent {
 
 }

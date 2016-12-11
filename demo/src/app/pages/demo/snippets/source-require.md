@@ -1,0 +1,1 @@
+import { Ng2AdvancedFilterModule, LocalDataSource } from 'ng2-advanced-filter';
