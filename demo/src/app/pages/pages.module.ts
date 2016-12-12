@@ -8,7 +8,7 @@ import { routing }       from './pages.routing';
 import { DemoComponent } from './demo';
 import { DocumentationComponent } from './documentation';
 import { HomeComponent } from './home';
-import { Ng2SmartTableModule } from '../../../../src/ng2-advanced-filter.module';
+import { Ng2AdvancedFilterModule } from '../../../../src/ng2-advanced-filter.module';
 import { ScrollPositionDirective } from '../theme/directives/scrollPosition.directive';
 
 @NgModule({
@@ -17,7 +17,7 @@ import { ScrollPositionDirective } from '../theme/directives/scrollPosition.dire
     FormsModule,
     HttpModule,
     ReactiveFormsModule,
-    Ng2SmartTableModule,
+    Ng2AdvancedFilterModule,
     routing
   ],
   declarations: [
