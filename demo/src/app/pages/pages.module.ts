@@ -8,15 +8,8 @@ import { routing }       from './pages.routing';
 import { DemoComponent } from './demo';
 import { DocumentationComponent } from './documentation';
 import { HomeComponent } from './home';
-import { Ng2SmartTableModule } from '../../../../src/ng2-smart-table.module';
+import { Ng2SmartTableModule } from '../../../../src/ng2-advanced-filter.module';
 import { ScrollPositionDirective } from '../theme/directives/scrollPosition.directive';
-
-import { BasicExampleComponent } from './demo/components/basic-example.component';
-import { BasicExampleDataComponent } from './demo/components/basic-example-data.component';
-import { BasicExampleSourceComponent } from './demo/components/basic-example-source.component';
-import { BasicExampleLoadComponent } from './demo/components/basic-example-load.component';
-import { AdvancedExampleConfirmComponent } from './demo/components/advanced-example-confirm.component';
-import { AdvancedExampleServerComponent } from './demo/components/advanced-example-server.component';
 
 @NgModule({
   imports: [
@@ -31,12 +24,6 @@ import { AdvancedExampleServerComponent } from './demo/components/advanced-examp
     DemoComponent, 
     DocumentationComponent, 
     HomeComponent,
-    BasicExampleComponent,
-    BasicExampleDataComponent,
-    BasicExampleSourceComponent,
-    BasicExampleLoadComponent,
-    AdvancedExampleConfirmComponent,
-    AdvancedExampleServerComponent,
     ScrollPositionDirective
   ]
 })
