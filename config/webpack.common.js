@@ -17,7 +17,7 @@ const ContextReplacementPlugin = require('webpack/lib/ContextReplacementPlugin')
  */
 const HMR = helpers.hasProcessFlag('hot');
 const METADATA = {
-  title: 'ng2-smart-table - Angular 2 Smart Table',
+  title: 'ng2-advanced-filter - Angular 2 Smart Table',
   description: 'Angular 2 Smart Table',
   baseUrl: '',
   ghRedirectPath: '/',

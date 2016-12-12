@@ -28,7 +28,7 @@
     "build"
   ],
   "files": [
-    "./ng2-smart-table.ts"
+    "./ng2-advanced-filter.ts"
   ],
   "awesomeTypescriptLoaderOptions": {
     "forkChecker": true,

@@ -24,7 +24,7 @@ const METADATA = webpackMerge(commonConfig({env: ENV}).metadata, {
   port: PORT,
   ENV: ENV,
   HMR: false,
-  ghRedirectPath: '/ng2-smart-table/'
+  ghRedirectPath: '/ng2-advanced-filter/'
 });
 
 module.exports = function(env) {
